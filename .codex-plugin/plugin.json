@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "fahim shaik"
+  },
+  "description": "Create a fact-checked professional or academic CV, then transform the approved source-of-truth CV into a responsive, accessible, interactive personal portfolio, with an integrity audit and Netlify-ready static site.",
+  "interface": {
+    "capabilities": [],
+    "category": "Other",
+    "defaultPrompt": null,
+    "developerName": "fahim shaik",
+    "displayName": "vitamorph-studio",
+    "longDescription": "Create a fact-checked professional or academic CV, then transform the approved source-of-truth CV into a responsive, accessible, interactive personal portfolio, with an integrity audit and Netlify-ready static site.",
+    "shortDescription": "Create a fact-checked professional or academic CV, then transform the approved source-of-truth CV into a responsive, accessible, interactive personal portfolio, with an integrity audit and Netlify-ready static site."
+  },
+  "name": "vitamorph-studio",
+  "version": "1.0.0"
+}
