@@ -21,18 +21,17 @@ AI agent skill that builds a fact-checked CV, then turns it into an accessible, 
 | Part | Count | Location |
 |---|---|---|
 | Main skill | 1 | `skills/vitamorph-studio/SKILL.md` |
-| Agent setup text | see folder | `skills/vitamorph-studio/AGENT_INSTRUCTIONS.md` |
-| Reference protocols | 2 | `skills/vitamorph-studio/references/` |
-| Templates | 0 | `skills/vitamorph-studio/templates/` |
+| Agent setup text | 1 | `skills/vitamorph-studio/AGENT_INSTRUCTIONS.md` |
+| Quality gate and claims-ledger template | 2 | `skills/vitamorph-studio/references/` |
+| Portfolio website starter | 1 site | `skills/vitamorph-studio/website/` |
 | Python utilities | 2 | `skills/vitamorph-studio/scripts/` |
-| Synthetic examples | 0 | `skills/vitamorph-studio/examples/` |
 | Plugin manifest | 1 | `.codex-plugin/plugin.json` |
 
-All examples are synthetic. The repository contains no private data, research results, credentials or institutional records.
+The sample profile is a blank template. The repository contains no private data, research results, credentials or institutional records.
 
 ## How to use it
 
-1. **In ChatGPT or another agent builder:** create a skill or plugin from `skills/vitamorph-studio/SKILL.md` and paste `AGENT_INSTRUCTIONS.md` where the platform asks for instructions, where that file exists.
+1. **In ChatGPT or another agent builder:** create a skill or plugin from `skills/vitamorph-studio/SKILL.md` and paste `AGENT_INSTRUCTIONS.md` where the platform asks for instructions.
 2. **In a regular chat:** attach `SKILL.md` and the reference files, or paste them, then describe your task.
 3. **Offline tools:** run the scripts directly (see Quick start).
 
