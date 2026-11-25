@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "VitaMorph Studio"
+abstract: "AI agent skill that builds a fact-checked CV, then turns it into an accessible, interactive, Netlify-ready portfolio website with a claims ledger and integrity audit."
+type: software
+version: 1.0.0
+date-released: 2026-11-26
+license: MIT
+authors:
+  - family-names: "Shaik"
+    given-names: "Fahim"
+repository-code: "https://github.com/fahim6285/vitamorph-studio"
+keywords:
+  - ai-agent
+  - agent-skill
+  - cv
+  - portfolio
+  - academic-profile
