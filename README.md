@@ -82,3 +82,10 @@ If this agent helps your work, please cite it:
   url     = {https://github.com/fahim6285/vitamorph-studio}
 }
 ```
+## FAQ
+
+**Does it invent achievements or facts?** No. Every claim must trace to a source you provide, and unsupported claims are flagged instead of written.
+
+**Does it publish my website automatically?** No. It builds a static site in the `website/` folder, and you deploy that folder yourself, for example with Netlify Drop.
+
+**Can I use it without a plugin system?** Yes. Attach `SKILL.md` in any chat that accepts files, or run the offline Python scripts.
