@@ -69,3 +69,16 @@ This agent belongs to [Fahim's AI Agents](https://github.com/fahim6285/fahim-ai-
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). To cite this work, use the "Cite this repository" button on GitHub (from `CITATION.cff`). Released under the [MIT License](LICENSE).
 
 Created by **Fahim Shaik**.
+## Citing this work
+
+If this agent helps your work, please cite it:
+
+```bibtex
+@software{shaik_vitamorph_studio_2026,
+  author  = {Shaik, Fahim},
+  title   = {VitaMorph Studio},
+  year    = {2026},
+  version = {1.0.0},
+  url     = {https://github.com/fahim6285/vitamorph-studio}
+}
+```
