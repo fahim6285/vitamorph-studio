@@ -1,0 +1,30 @@
+/* Built from profile.json — edit the JSON, not this file. */
+window.VITAMORPH_PROFILE = {
+  "name": "Your Name",
+  "role": "Professional title",
+  "institution": "Institution / Organization",
+  "location": "",
+  "snapshot": "",
+  "summary": "Replace this paragraph with a concise, source-verified professional biography.",
+  "portrait": "",
+  "research_areas": [],
+  "metrics": [],
+  "publication_scope": "complete",
+  "publication_totals": null,
+  "publications": [],
+  "career": [],
+  "education": [],
+  "projects": [],
+  "patents": [],
+  "awards": [],
+  "links": {
+    "email": "",
+    "orcid": "",
+    "google_scholar": "",
+    "scopus": "",
+    "linkedin": "",
+    "website": "",
+    "cv_pdf": ""
+  }
+};
+

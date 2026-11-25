@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#252a27" />
+  <meta name="description" id="meta-description" content="An interactive, verified professional curriculum vitae and research portfolio." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" id="meta-og-title" content="Interactive Curriculum Vitae" />
+  <meta property="og:description" id="meta-og-description" content="Professional biography, publications, research and experience." />
+  <title>Interactive CV — VitaMorph Studio</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="assets/profile.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <aside class="rail" aria-label="Profile and navigation">
+      <div class="brand">
+        <span class="brand-symbol" aria-hidden="true">V<span class="brand-dot">.</span></span>
+        <span class="brand-name">VitaMorph<span class="brand-kicker">PORTFOLIO / STUDIO</span></span>
+      </div>
+      <div class="rail-divider"></div>
+      <p class="rail-label">EXPLORE</p>
+      <nav class="nav" aria-label="Page sections">
+        <a href="#overview" class="nav-link active" aria-current="location"><span>01</span> Overview</a>
+        <a href="#impact" class="nav-link"><span>02</span> Research impact</a>
+        <a href="#publications" class="nav-link"><span>03</span> Publications</a>
+        <a href="#career" class="nav-link"><span>04</span> Career & education</a>
+        <a href="#selected-work" class="nav-link"><span>05</span> Projects & recognition</a>
+      </nav>
+      <div class="rail-bottom">
+        <p class="rail-note">A verified professional story, thoughtfully presented.</p>
+        <span class="rail-credit">CRAFTED WITH VITAMORPH</span>
+      </div>
+    </aside>
+
+    <main class="main" id="main-content">
+      <div class="topbar">
+        <span class="topbar-id">INTERACTIVE CURRICULUM VITAE</span>
+        <div class="top-actions">
+          <a href="#contact" class="top-contact">Get in touch <span aria-hidden="true">↗</span></a>
+          <button class="button button-quiet" type="button" id="share-btn" aria-label="Copy a link to this profile">Share <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+
+      <section class="hero section" id="overview" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> PROFILE / <span id="snapshot-date">CURRENT EDITION</span></p>
+          <h1 id="hero-title"><span id="person-name">Your Name</span><span class="period">.</span></h1>
+          <p class="hero-role" id="person-role">Professional title</p>
+          <p class="hero-institution" id="person-institution">Institution / Organization</p>
+          <p class="hero-intro" id="person-about">A curated account of your work, achievements, and professional journey.</p>
+          <div class="hero-actions">
+            <a href="#publications" class="button button-primary">Explore work <span aria-hidden="true">↗</span></a>
+            <a id="cv-download" class="button button-border" href="#" download hidden>Download CV <span aria-hidden="true">↓</span></a>
+            <button id="print-btn" class="button button-border" type="button">Print profile <span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+        <div class="hero-aside">
+          <div class="portrait-frame" id="portrait-frame" aria-label="Profile monogram">
+            <div class="portrait-placeholder"><span id="portrait-initials" aria-hidden="true">CV</span><small>CURRICULUM<br />VITAE</small></div>
+          </div>
+          <div class="portrait-caption"><span id="location-label">GLOBAL PORTFOLIO</span><span>VERIFIED PROFILE <span aria-hidden="true">↗</span></span></div>
+        </div>
+      </section>
+
+      <section class="metrics section" id="impact" aria-labelledby="impact-title">
+        <div class="section-header">
+          <div><p class="eyebrow">THE NUMBERS / 01</p><h2 id="impact-title">Work, in perspective<span class="period">.</span></h2></div>
+          <p class="section-aside">Key figures shown with their original source and snapshot date.</p>
+        </div>
+        <div class="metric-grid" id="metrics-list"><p class="empty-inline">Verified metrics will appear here.</p></div>
+        <div class="focus-strip"><span class="focus-title">FIELDS OF WORK</span><div class="focus-tags" id="focus-tags">Research and professional interests</div></div>
+      </section>
+
+      <section class="publications section" id="publications" aria-labelledby="publications-title">
+        <div class="section-header">
+          <div><p class="eyebrow">SELECTED & COMPLETE WORKS / 02</p><h2 id="publications-title">The publication archive<span class="period">.</span></h2></div>
+          <p class="section-aside">Search the full index by title, venue, or year. All entries derive from the verified CV.</p>
+        </div>
+        <div class="explorer">
+          <div class="explorer-controls">
+            <div class="search-field">
+              <label class="visually-hidden" for="publication-search">Search publications</label>
+              <span aria-hidden="true">⌕</span>
+              <input id="publication-search" type="search" placeholder="Search titles, venues, years…" autocomplete="off" />
+            </div>
+            <div class="select-field"><label class="visually-hidden" for="publication-type">Filter by publication type</label><select id="publication-type"><option value="all">All types</option></select></div>
+            <div class="select-field"><label class="visually-hidden" for="publication-sort">Sort publications</label><select id="publication-sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Title A–Z</option></select></div>
+          </div>
+          <p id="publication-count" class="result-count" role="status">No publications loaded</p>
+          <div id="publication-list" class="publication-list"></div>
+          <button class="button button-border load-more" type="button" id="load-more" hidden>Show more publications <span aria-hidden="true">↓</span></button>
+        </div>
+      </section>
+
+      <section class="career section" id="career" aria-labelledby="career-title">
+        <div class="section-header">
+          <div><p class="eyebrow">EXPERIENCE / 03</p><h2 id="career-title">A path of purpose<span class="period">.</span></h2></div>
+          <p class="section-aside">Academic appointments, leadership, professional responsibilities, and qualifications.</p>
+        </div>
+        <div class="two-col">
+          <div><h3 class="subsection-title">Appointments & service</h3><div class="timeline" id="career-list"><p class="empty-inline">Career entries will appear here.</p></div></div>
+          <div><h3 class="subsection-title">Education & training</h3><div class="timeline" id="education-list"><p class="empty-inline">Education entries will appear here.</p></div></div>
+        </div>
+      </section>
+
+      <section class="projects section" id="selected-work" aria-labelledby="projects-title">
+        <div class="section-header">
+          <div><p class="eyebrow">RESEARCH & RECOGNITION / 04</p><h2 id="projects-title">Beyond the papers<span class="period">.</span></h2></div>
+          <p class="section-aside">Verified research projects, awards, patents, and other selected contributions.</p>
+        </div>
+        <div class="work-grid" id="work-grid"><p class="empty-inline">Selected projects and professional contributions will appear here.</p></div>
+      </section>
+
+      <footer class="footer section" id="contact">
+        <p class="eyebrow">CONNECT / 05</p>
+        <div class="footer-main"><div><h2>Let's connect<span class="period">.</span></h2><p>For research collaboration, professional enquiries, and meaningful opportunities.</p></div><div class="footer-links" id="contact-links"></div></div>
+        <div class="footer-bottom"><span id="footer-owner">© Profile owner</span><span>VitaMorph Studio · Crafted with clarity</span></div>
+      </footer>
+      <p class="sr-status" role="status" aria-live="polite" id="live-status"></p>
+    </main>
+  </div>
+</body>
+</html>
+
